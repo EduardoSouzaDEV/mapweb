@@ -1,0 +1,205 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar .logo h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.intro-section {
+    background-color: #0066cc;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.intro-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.intro-section .cta-button {
+    background-color: #ff5733;
+    padding: 12px 40px;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.intro-section .cta-button:hover {
+    background-color: #cc4626;
+}
+
+.services-section {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.service-card {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+}
+
+.service-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.btn-secondary {
+    margin-top: 20px;
+    background-color: #00bcd4;
+    padding: 10px 30px;
+    color: white;
+    font-size: 1rem;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #0097a7;
+}
+
+.pricing-section {
+    background-color: #f4f6f8;
+    padding: 50px 20px;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.pricing-card {
+    background-color: white;
+    padding: 25px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.pricing-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.pricing-card ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.pricing-card .btn-primary {
+    background-color: #1a73e8;
+    padding: 12px 40px;
+    color: white;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    padding-top: 10px;
+}
+
+.pricing-card .btn-primary:hover {
+    background-color: #155db2;
+}
+
+.pricing-card.pricing-featured {
+    background-color: #ffeb3b;
+    border: 2px solid #ff9800;
+}
+
+.contact-section {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.contact-form .btn-main {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 40px;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form .btn-main:hover {
+    background-color: #388e3c;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+    color: white;
+}
